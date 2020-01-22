@@ -8,6 +8,17 @@ grid-area:header;
 main{
 grid-area:main;
  background:rgba(0,0,0,.2);
+   padding:5px;
+}
+main p, footer p{
+Color:white;
+}
+header h3, nav a, main h2{
+Color:navy;
+}
+header h1{
+color:mediumspringgreen; 
+text-shadow: 2px 2px 5px navy;
 }
 
 nav{

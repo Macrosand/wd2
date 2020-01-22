@@ -1,28 +1,28 @@
 div{
 height:60px
 }
-.header{
+header{
 grid-area:header;
    background:rgba(0,0,0,.2);
 }
-.main{
+main{
 grid-area:main;
  background:rgba(0,0,0,.2);
 }
 
-.nav{
+nav{
 grid-area:nav;
   background:rgba(0,0,0,.2);
 }
-.body{
+body{
   background: linear-gradient(to right, lightgreen, teal);
    font-family: Veradana;
   margin:0;}
-.footer{
+footer{
  background:rgba(0,0,0,.2);
 background-color:purple;
 grid-area:footer;}
-.container1 { /*for index.html*/
+container1 { /*for index.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;

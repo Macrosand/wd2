@@ -1,29 +1,33 @@
-div{
-height:60px
+body{
+  background: linear-gradient(to right, lightgreen, teal);
+   font-family:Verdana;
+  margin:0;
 }
 header{
+text-align:center;
 grid-area:header;
-   background:rgba(0,0,0,.2);
+background:rgba(0,0,0,.2);
 }
 main{
 grid-area:main;
- background:rgba(0,0,0,.2);
-   padding:5px;
+background:rgba(0,0,0,.2);
+padding:5px;
 }
 main p, footer p{
-Color:white;
+color:white;
 }
 header h3, nav a, main h2{
 Color:navy;
 }
 header h1{
+font-size:5vw;
 color:mediumspringgreen; 
 text-shadow: 2px 2px 5px navy;
 }
 
 nav{
 grid-area:nav;
-  background:rgba(0,0,0,.2);
+background:rgba(0,0,0,.2);
 }
 nav ul {
    padding:10px;
@@ -43,15 +47,14 @@ a:hover {
     color:white;
 }
 
-body{
-  background: linear-gradient(to right, lightgreen, teal);
-   font-family: Veradana;
-  margin:0;}
+
 footer{
  background:rgba(0,0,0,.2);
-background-color:purple;
-grid-area:footer;}
-container1 { /*for index.html*/
+ grid-area:footer;
+text-align:center;
+}
+
+.container1 { /*for index.html*/
   display: grid;
   grid-template-columns:auto 1fr;
   grid-gap:.5em;
